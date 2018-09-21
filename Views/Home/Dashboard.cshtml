@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Bright Ideas";
+}
+<a href="/Loggout">Loggout</a>
+@model User
+<h1>Hello @ViewBag.CurrentUser.Name</h1>
+
+@if (TempData["idea_error"] != null) {
+    @: <p>Must be more than 2 characters.</p>
+}
+<form action = "/Idea" method="POST">
+    <label name ="Posts">Ideas Welcome:</label>
+    <input name="Posts" type="string">
+    <input type="submit" value="Idea">
+    
+</form>
+    <table class="table table-striped table-dark">
+        <thead>
+            <th>User</th>
+            <th>Post</th>
+            <th>Likes</th>
+            <th>Count</th>
+            <td>Action</td>
+        </thead>
+        <tbody>
+            @{
+                foreach(var cha in @ViewBag.AllFunctions) {
+                    <tr>
+                        <td><a href="/Stats/@cha.user.User_id">@cha.user.Name</a></td>
+                        <td>@cha.Posts</td>
+                        @{
+                            bool likedflag = false;
+                            foreach(var key in cha.post)
+                            {
+                                if( key.User_id == ViewBag.CurrentUser.User_id)
+                                {
+                                    likedflag = true;
+                                }
+                            }
+                            if(likedflag)
+                            {
+                                <td>You already liked this my dude</td>
+                            }
+                            else
+                            {
+                                <td><a href="/Like/@cha.Functionid">Like</a></td>
+                            }
+                        }
+                        <td><a href="/display/@cha.Functionid">@cha.post.Count</a></td>
+                        @{
+                            if( ViewBag.CurrentUser.User_id == cha.Userid)
+                            {
+                                <td> <a href="/Delete/@cha.Functionid">delete</a></td>
+                            }
+                        }
+                        
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

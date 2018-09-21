@@ -1,0 +1,17 @@
+@model bank.Models.loginVal
+<h1>Log in</h1>
+<form asp-action="login" asp-controller="Home" method="POST">
+<span asp-validation-for="emailLogin"></span>
+<label asp-for="emailLogin"></label>
+<input asp-for="emailLogin"><br>
+<span asp-validation-for="passwordLogin"></span>
+<label asp-for="passwordLogin"></label>
+<input asp-for="passwordLogin" type="password"><br>
+<br>
+<input type="submit" value="login">
+</form>
+@if(ViewBag.Error != null){
+<p>@ViewBag.Error</p>
+}
+
+

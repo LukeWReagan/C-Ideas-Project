@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Login/Registration";
+}
+
+@model User
+<h1>Register</h1>
+<form asp-action="Register" asp-controller="Home" method="POST">
+    <span asp-validation-for="Name"></span>
+    <label asp-for="Name"></label>
+    <input asp-for="Name"><br>
+
+    <span asp-validation-for="Alias"></span>
+    <label asp-for="Alias"></label>
+    <input asp-for="Alias"><br>
+
+    <span asp-validation-for="Email"></span>
+    <label asp-for="Email"></label>
+    <input asp-for="Email"><br>
+
+    <span asp-validation-for="Password"></span>
+    <label asp-for="Password"></label>
+    <input asp-for="Password"><br>
+    <label name="Confirm Password"> Confirm Password:</label>
+    <input type = "password" name="Confirm Password">
+    <br>
+    <input type="submit" value="Register">
+</form>
+@Html.Partial("test.cshtml")

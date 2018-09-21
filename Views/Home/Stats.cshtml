@@ -1,0 +1,13 @@
+@model User
+<br>
+<a href="/Loggout">Loggout</a>
+<br>
+<br>
+<br>
+        <p>Name: @ViewBag.UserInfo.Name</p>
+        <p>Alias: @ViewBag.UserInfo.Alias</p>
+        <p>Email: @ViewBag.UserInfo.Email</p>
+        <hr>
+        <p>Total Number of Posts: @ViewBag.UserInfo.AllPosts.Count</p>
+        <p>Total Number of Likes: @ViewBag.UserInfo.Like.Count</p>
+    

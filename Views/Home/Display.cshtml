@@ -1,0 +1,21 @@
+<p>@ViewBag.CurrentFunction.user.Name Says:</p>
+<p>@ViewBag.CurrentFunction.Posts</p>
+<br>
+<br>
+<br>
+<h1>People Who Liked This Post</h1>
+<table class="table table-striped table-dark">
+    <thead>
+        <th>Alias</th>
+        <th>Name</th>
+    </thead>
+    <tbody>
+        @foreach( var up in @ViewBag.CurrentFunction.post){
+        <tr>
+
+            <td><a href="/Stats/@up.user.User_id">@up.user.Alias</a></td>
+            <td>@up.user.Name</td>
+        </tr>
+        }
+    </tbody>
+</table>
