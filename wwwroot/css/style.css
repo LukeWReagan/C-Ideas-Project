@@ -1,0 +1,887 @@
+#topBox{
+    display: inline-block;
+    background: #0f0704;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.home{
+    margin-top: 20px;
+    font-family: brevia;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    letter-spacing: 0em;
+    line-height: 1em;
+    text-transform: none;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.Hr1{
+    position: absolute;
+    font-family: brevia;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    left: 1300px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 80px;
+    color: white;
+}
+
+
+
+.firstText{
+    text-align: center;
+    font-weight: 400;
+    font-family: Ubuntu;
+    font-size: 71px;
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    right: 560px;
+    bottom: 170px;
+    letter-spacing: 3px;
+ }
+
+.seattle{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    bottom: 6px;  
+    opacity: .8;
+}
+.head{
+    border-radius: 50%;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    right: 1220px;
+    bottom: 370px;
+
+   
+}
+.firstHead{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 1500px;
+    left: 1227px;
+}
+.firstBody{
+    font-style: italic;
+    text-align: center;  
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 1550px;
+    left: 1100px;
+}
+.computer1{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 640px;
+    top: 1030px;
+    border-radius: 30%;
+}
+.computer2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 640px;
+    top: 1310px;
+    border-radius: 30%;
+}
+.travel1{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 640px;
+    top: 1590px;
+    border-radius: 30%;
+}
+.books{
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 1790px;
+    opacity: .8;
+}
+.second{
+    height: 940px;
+    width: 100%px;
+}
+.third{
+    height: 780px;
+    width: 100%;
+}
+.fourth{
+    height: 780px;
+    width: 100%;
+}
+.secondHead{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 1030px;
+    left: 180px;
+}
+.secondBody{
+    font-style: italic;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box; 
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 1080px;
+    left: 50px; 
+}
+.meanPic{
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    left: 850px;
+    top: 2750px;
+}
+#firstPic{
+    display: inline-block;
+    position: sticky;
+    top:0px;
+    width: 100%;
+}
+.parallax { 
+    background-image: url("images/books.jpg");
+    height: 900px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 { 
+    background-image: url("images/walking.jpg");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.parallax3 { 
+    background-image: url("images/road.jpg");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.thirdHead{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.0rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 3900px;
+    left: 700px;
+}
+.thirdBodyC{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 4000px;
+    left: 700px;
+}
+.thirdBodyD{
+    font-style: italic;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 4050px;
+    left: 655px;
+}
+
+.icon2{
+    position: absolute;
+    width: 280px;
+    height: 320px;
+    left: 40px;
+    top: 3870px;
+}
+.codingDojo2{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 40px;
+    top: 4300px;
+    border-radius: 30%;
+}
+.video{
+    position: absolute;
+    left: 1000px;
+    top: 4236px;
+    border-radius: 30%;
+}
+.parallax4 { 
+    background-image: url("images/city.jpg");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.fifth{
+    
+    height: 780px;
+    width: 100%;
+}
+.fourthHead{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.0rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 5270px;
+    left: 600px;
+}
+.fourthBodyL{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 5420px;
+    left: 600px;
+}
+.fourthBodyLL{
+    display: inline-block;
+    font-style: italic;
+    text-align: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 5420px;
+    left: 806px;
+}
+.fourthBodyF{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 5490px;
+    left: 600px;
+}
+.fourthBodyFF{
+    display: inline-block;
+    font-style: italic;
+    text-align: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 5490px;
+    left: 817px;
+}
+.fourthBodyS{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 5560px;
+    left: 600px;
+}
+.fourthBodySS{
+    display: inline-block;
+    font-style: italic;
+    text-align: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 5560px;
+    left: 810px;
+}
+.fourthBodyD{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 5630px;
+    left: 600px;
+}
+.fourthBodyDD{
+    display: inline-block;
+    font-style: italic;
+    text-align: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 5630px;
+    left: 800px;
+}
+.fourthBodyFE{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 5700px;
+    left: 600px;
+}
+.fourthBodyFEE{
+    display: inline-block;
+    font-style: italic;
+    text-align: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 5700px;
+    left: 800px;
+}
+.fourthBodyM{
+    margin-top: 15px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top: 5770px;
+    left: 600px;
+}
+.fourthBodyMM{
+    display: inline-block;
+    font-style: italic;
+    text-align: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 5771px;
+    left: 770px;
+}
+.icon3{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 850px;
+    top: 5500px;
+}
+.slideShow{
+    height: 600px;
+    width: 100%;
+}
+.parallax5 { 
+    background-image: url("images/freeStock.jpeg");
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.closer{
+    height: 255px;
+    width: 100%;
+    display: inline-block;
+    background: #0f0704;
+    text-align: center;
+    left: 0px;
+    
+
+}
+.finalH{
+    text-align: center;
+    font-family: brevia;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 0em;
+    line-height: 1em;
+    text-transform: none;
+    color: #fff;
+    width: 300px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    position: relative;
+    top: 35px;
+    left: 130px;
+}
+.linkedin{
+    display: inline-block;
+    height: 75px;
+    width: 100px;
+}
+.Hr9{
+    display: inline-block;
+    font-family: brevia;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .06em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 127px;
+    right: 210px;
+}
+.Hr2{
+    display: inline-block;
+    font-family: brevia;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .06em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 127px;
+    right: 140px;
+}
+.Hr3{
+    display: inline-block;
+    font-family: brevia;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .06em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 127px;
+    right: 70px;
+}
+.info1{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 5420px;
+}
+.info2{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+    top: 5420px;
+}
+.info3{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 275px;
+    top: 5420px;
+}
+.info4{
+    height: 100px;
+    width: 130px;
+    display: inline-block;
+    position: absolute;
+    left: 390px;
+    top: 5420px;
+}
+.info5{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 5560px;
+}
+.info6{
+    height: 90px;
+    width: 120px;
+    display: inline-block;
+    position: absolute;
+    left: 170px;
+    top: 5560px;
+}
+.info7{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+    top: 5560px;
+}
+.info8{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 420px;
+    top: 5560px;
+}
+.info9{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 5670px;
+}
+.info10{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    position: absolute;
+    left: 417px;
+    top: 5680px;
+}
+.info11{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 165px;
+    top: 5680px;
+}
+.info12{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    position: absolute;
+    left: 290px;
+    top: 5685px;
+}
+.info13{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+    left: 240px;
+    top: 5790px;
+}
+.portfolio{
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.0rem;
+    letter-spacing: .2em;
+    line-height: 1em;
+    text-transform: none;
+    position: absolute;
+    top:2520px;
+    left: 665px;
+}
+.ideaIcon{
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    top: 2650px;
+    left: 165px;
+}
+.ideasD{
+    font-style: italic;
+    text-align: center;
+    -webkit-margin-before: 1em;
+    margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+    margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 2870px;
+    left: 100px;
+}
+.ideasLink{
+    font-style: italic;
+    text-align: center;
+    -webkit-margin-before: 1em;
+    margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+    margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 3120px;
+    left: 200px;
+}
+.ideasGit{
+    font-style: italic;
+    text-align: center;
+    -webkit-margin-before: 1em;
+    margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+    margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 3150px;
+    left: 200px;
+}
+.catIcon{
+    height: 220px;
+    width: 280px;
+    position: absolute;
+    top: 2650px;
+    left: 620px;
+}
+.catD{
+    font-style: italic;
+    text-align: center;
+    -webkit-margin-before: 1em;
+    margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+    margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 2870px;
+    left: 580px;
+}
+.catGit{
+    font-style: italic;
+    text-align: center;
+    -webkit-margin-before: 1em;
+    margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+    margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 3130px;
+    left: 670px;
+}
+.userIcon{
+    height: 220px;
+    width: 280px;
+    position: absolute;
+    top: 2650px;
+    left: 1110px;
+}
+.userD{
+    font-style: italic;
+    text-align: center;
+    -webkit-margin-before: 1em;
+    margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+    margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 2870px;
+    left: 1105px;
+}
+.userGit{
+    font-style: italic;
+    text-align: center;
+    -webkit-margin-before: 1em;
+    margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+    margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+    position: absolute;
+    top: 3040px;
+    left: 1110px;
+}

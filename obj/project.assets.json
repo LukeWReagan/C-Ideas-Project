@@ -13350,11 +13350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luke\\OneDrive\\cdassignments\\c#\\Exam1\\bank.csproj",
+      "projectUniqueName": "C:\\Users\\Luke\\OneDrive\\cdassignments\\c#\\portfolio\\bank.csproj",
       "projectName": "bank",
-      "projectPath": "C:\\Users\\Luke\\OneDrive\\cdassignments\\c#\\Exam1\\bank.csproj",
+      "projectPath": "C:\\Users\\Luke\\OneDrive\\cdassignments\\c#\\portfolio\\bank.csproj",
       "packagesPath": "C:\\Users\\Luke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luke\\OneDrive\\cdassignments\\c#\\Exam1\\obj\\",
+      "outputPath": "C:\\Users\\Luke\\OneDrive\\cdassignments\\c#\\portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
