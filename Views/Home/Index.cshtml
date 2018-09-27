@@ -1,83 +1,28 @@
-﻿<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="~/css/style.css"/>
-    </head>
-    <body>    
-<div id="topBox"> 
-    <h3 class="home">Luke Reagan</h3>
-    <a href="https://www.linkedin.com/in/lukereagan/" class="Hr1">Linkedin</a> 
-</div>
-<div class="parallax"></div>
-<p class="firstText">Focused on <br>efficient coding,<br>new ideas,<br>and the future </p>
-<div class="second">
-  <h1 class="firstHead">About</h1>
-  <h3 class="firstBody">Dedicated, hardworking problem-solver <br> with an eye for detail<br> and a passion for creation.<br> Lover of any outdoor activities<br> but can be persuaded to relax indoors.<br> Strong intrest in traveling the world<br> and experiencing other cultures. </h3>
-  <h1 class="secondHead">Inspiration</h1>
-  <h3 class="secondBody"> I always wanted a computer of my own.<br> I finaly got one and was a daily user<br> of websites like Myspace, Youtube, and various flash<br> game sites. I was always fascinated that<bR> the creators of these websites could type out<br> lines of code and give me hours of content.<br> As a user I kept on the cutting edge of technology<br> until I decided to create it myself.</h3>
-  <img class="computer1" alt="https://www.pexels.com/photo/macbook-pro-on-desk-877695/" src="images/computer1.jpeg">
-  <img class="computer2" alt="https://www.pexels.com/photo/group-hand-fist-bump-1068523/" src="images/computer2.jpeg">
-  <img class="travel1" alt="https://www.pexels.com/photo/blur-cartography-close-up-concept-408503/" src="images/travel1.jpeg">
-</div>
-<div class="parallax2"></div>
-<div class="third">   
-  <h1 class="portfolio">Portfolio</h1>
-  <img class="ideaIcon" src="images/ideaPic.jpg">
-  <h3 class="ideasD">Ideas is a project designed to<br> let users communicate what they are<br> thinking with each other. This project<br> is written in C# and uses <br> .Net Core, and MySQl. Ideas demonstrates<br> my knowledge with session, using variables<br> to transfer information, and a one<br> to many relationship.</h3>
-  <a href="http://34.216.203.107/" class="ideasLink">Link to Ideas Website</a>
-  <a href="https://github.com/LukeWReagan/C-Ideas-Project" class="ideasGit">Link to Ideas Github</a> 
-  <img class="catIcon" src="images/cat.jpg">
-  <h3 class="catD">Pet Shelter is a project designed<br> to demonstrate CRUD operations by allowing<br> users to create a listing<br> for a pet adoption, view all<br> adoptable pets, update an existing pet<br> listing, and delete an existing pet lsiting.<br> This project was build using<br> MongoDB, Express, Angular, and Node.</h3>
-  <a href="https://github.com/LukeWReagan/MEAN-Authors-" class="catGit">Link to Pet Shelter Github</a> 
-  <img class="userIcon" src="images/users.png">
-  <h3 class="userD">Semi-Restful Users was created<br> using Python, Django, and MySQL.<br> The focus of this project<br> is to show my ability to<br> create CRUD operations in Python.</h3>
-  <a href="https://github.com/LukeWReagan/PythonRestfulUsers" class="userGit">Link to Semi-Restful Users Github</a> 
-</div>
-<div class="parallax3"></div>
-<div class="fourth">
-    <h1 class="thirdHead">Education</h1>
-    <h3 class="thirdBodyC">Coding Dojo</h3>
-    <P class=thirdBodyD> Three full stacks 14 week,<br> onsite web-developement course.<br> Gained over 1000 hours<br> of programming experience.</P>
-    <img class="icon2" alt="Coding Dojo" src="images/codingDojo1.png">
-    <img class="codingDojo2" src="images/codingDojo2.png">
-    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/C1nVzOzEE-c"
-     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-<div class="parallax4"></div>
-<div class="fifth">
-  <h1 class="fourthHead">Information</h1>
-  <h3 class="fourthBodyL">Languages -</h3>
-  <p class="fourthBodyLL">Python, JavaScript, C#</p>
-  <h3 class="fourthBodyF">Frameworks -</h3>
-  <p class="fourthBodyFF">Flask, Django, .NET Core, Angular4</p>
-  <h3 class="fourthBodyS">Server Side -</h3>
-  <p class="fourthBodySS">Node, Express</p>
-  <h3 class="fourthBodyD">Databases -</h3>
-  <p class="fourthBodyDD">MySQL, MongoDB/Mongoose</p>
-  <h3 class="fourthBodyFE">Front End -</h3>
-  <p class="fourthBodyFEE">Bootstrap, jQuery</p>
-  <h3 class="fourthBodyM">Markup -</h3>
-  <p class="fourthBodyMM">HTML, CSS</p>
-  <img class="info1" src="images/pythonPic.ico">
-  <img class="info2" src="images/javaScript.png">
-  <img class="info3" src="images/cPic.png">
-  <img class="info4" src="images/flask.png">
-  <img class="info5" src="images/django.png">
-  <img class="info6" src="images/asp.png">
-  <img class="info7" src="images/angular.png">
-  <img class="info8" src="images/node.png">
-  <img class="info9" src="images/mysql.png">
-  <img class="info10" src="images/mongodb.png">
-  <img class="info11" src="images/Boostrap.png">
-  <img class="info12" src="images/jquery.png">
-  <img class="info13" src="images/htmlcss.png">
-</div>
-<div class="parallax5"></div>
-<div class="closer">
-  <h1 class="finalH">Luke Reagan</h1>
-  <a href="https://www.linkedin.com/in/lukereagan/" class="Hr9">Linkedin</a> 
-  <a href="https://github.com/LukeWReagan" class="Hr2">Github</a> 
-  <a href="src/LukeReaganResume.pdf" class="Hr3">Resume</a>
-</div>
-    </body>
-</html>
+﻿@{
+    ViewData["Title"] = "Login/Registration";
+}
+
+@model User
+<h1>Register</h1>
+<form asp-action="Register" asp-controller="Home" method="POST">
+    <span asp-validation-for="Name"></span>
+    <label asp-for="Name"></label>
+    <input asp-for="Name"><br>
+
+    <span asp-validation-for="Alias"></span>
+    <label asp-for="Alias"></label>
+    <input asp-for="Alias"><br>
+
+    <span asp-validation-for="Email"></span>
+    <label asp-for="Email"></label>
+    <input asp-for="Email"><br>
+
+    <span asp-validation-for="Password"></span>
+    <label asp-for="Password"></label>
+    <input asp-for="Password"><br>
+    <label name="Confirm Password"> Confirm Password:</label>
+    <input type = "password" name="Confirm Password">
+    <br>
+    <input type="submit" value="Register">
+</form>
+@Html.Partial("test.cshtml")
